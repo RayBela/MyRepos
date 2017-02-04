@@ -1,11 +1,14 @@
 package org.rayhane.myrepos.model
 
 /**
- * Created by Rayhane on 04/02/2017.
+ * Created by Rayhane on 03/02/2017.
  */
-data class GithubRepo (val name:String ,val url:String ,val description:String ){
 
-    init {
+class GithubRepo(var name: String, var url: String, var description: String) {
 
+    override fun toString(): String {
+        return name + " " + url + "" + description
     }
+
+
 }
