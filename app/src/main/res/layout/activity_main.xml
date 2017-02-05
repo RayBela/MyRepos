@@ -22,9 +22,8 @@
         android:text="Load Repos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button3"
+        android:id="@+id/loadRepos"
         android:background="@color/colorPrimary"
-        android:onClick="onClick"
         android:textColor="@android:color/background_light"
         android:textSize="18sp"
         android:layout_marginTop="20dp" />

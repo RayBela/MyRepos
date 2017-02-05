@@ -12,9 +12,12 @@ import org.rayhane.myrepos.model.GithubRepo
 
 /**
  * Created by Rayhane on 04/02/2017.
+ * RecyclerView Adapter
  */
 
-class RepoAdapter(private val repos: List<GithubRepo>, private val rowLayout: Int, private val context: Context) : RecyclerView.Adapter<RepoAdapter.RepoViewHolder>() {
+class RepoAdapter(private val repos: List<GithubRepo>,
+                  private val rowLayout: Int,
+                  private val context: Context) : RecyclerView.Adapter<RepoAdapter.RepoViewHolder>() {
 
 
     inner class RepoViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
@@ -44,15 +47,6 @@ class RepoAdapter(private val repos: List<GithubRepo>, private val rowLayout: In
 
     }
 
-    override fun getItemCount(): Int {
-        return repos.size
-    }
-
-
-    /* */
-
-
-    /* */
-
+    override fun getItemCount(): Int { return repos.size }
 
 }

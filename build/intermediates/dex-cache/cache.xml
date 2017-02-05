@@ -7,17 +7,17 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.0"
-        sha1="ed539c015e000e99ea8a6aa5d7fd09eadf7cc153">
+        sha1="cb737965496d82c8636992caf83d16a2cc221b52">
         <dex dex="D:\Dev Projects\MyRepos\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_3d311900402ac937d8e5f8dea04450a3436a347f\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\Dev Projects\MyRepos\app\build\intermediates\exploded-aar\com.android.databinding\library\1.2.1\jars\classes.jar"
+        jar="C:\Users\Rayhane\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.0"
-        sha1="957dc30b1495f8689271e00d56ab09cc9192df02">
-        <dex dex="D:\Dev Projects\MyRepos\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.databinding-library-1.2.1_8d048dd3c44563ea85b097ebd6fe364f47c2775c\classes.dex" />
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="D:\Dev Projects\MyRepos\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_f16602be37710739ef83cb993842acf52c696f14\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -39,21 +39,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Rayhane\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.0.12\277d8a8184f92951355d8ddbcac855bf8f12bc5e\rxjava-1.0.12.jar"
+        jar="C:\Users\Rayhane\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.1.6\2586312cd2b8a511e4c6236736f5a039fc0f2273\rxjava-1.1.6.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.0"
-        sha1="277d8a8184f92951355d8ddbcac855bf8f12bc5e">
-        <dex dex="D:\Dev Projects\MyRepos\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxjava-1.0.12_f5700e2c3e8646b74e5dbb7b121db8e7f069faf5\classes.dex" />
+        sha1="2586312cd2b8a511e4c6236736f5a039fc0f2273">
+        <dex dex="D:\Dev Projects\MyRepos\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxjava-1.1.6_79c61cfe563148cdd0f4717d9d2d4d31841c6401\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Rayhane\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.6.2\f1bc476cc167b18e66c297df599b2377131a8947\gson-2.6.2.jar"
+        jar="C:\Users\Rayhane\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\adapter-rxjava\2.1.0\693eddc23e87ab13f9cf5001707ce8e7e1d1ff01\adapter-rxjava-2.1.0.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.0"
-        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
-        <dex dex="D:\Dev Projects\MyRepos\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.6.2_96d1f343ffee2d11b75a89c40ea41faab3c856b9\classes.dex" />
+        sha1="693eddc23e87ab13f9cf5001707ce8e7e1d1ff01">
+        <dex dex="D:\Dev Projects\MyRepos\app\build\intermediates\transforms\dex\debug\folders\1000\10\adapter-rxjava-2.1.0_b646109542db0ca6ffb7490e113598272db886bc\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -63,15 +63,6 @@
         revision="23.0.0"
         sha1="866b539d3ae58abbd47880f243c02f914fec5cda">
         <dex dex="D:\Dev Projects\MyRepos\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxandroid-0.25.0_7a8369408774bac5dbec25732bd70208eb31a031\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Rayhane\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.0"
-        sha1="98476622f10715998eacf9240d6b479f12c66143">
-        <dex dex="D:\Dev Projects\MyRepos\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_7fe3f7b6d626575d467e09b39fb6fc950937819c\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -111,6 +102,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Rayhane\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="D:\Dev Projects\MyRepos\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.1.0_03de023f993267d3c19a8757ea8137528dfdd4d5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Rayhane\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-runtime\1.0.6\3562c66f648480d3bd4f76cff722488ced13445b\kotlin-runtime-1.0.6.jar"
         jumboMode="true"
         optimize="true"
@@ -129,12 +129,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Rayhane\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.0.2\f8d87f15b94b8d74e7ccf61d7eedb558811cdb30\converter-gson-2.0.2.jar"
+        jar="C:\Users\Rayhane\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.0"
-        sha1="f8d87f15b94b8d74e7ccf61d7eedb558811cdb30">
-        <dex dex="D:\Dev Projects\MyRepos\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.0.2_56f794871fa760704f1f9df84c31eb55af0b461f\classes.dex" />
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="D:\Dev Projects\MyRepos\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.1.0_b2169b1aa5a7b827c5c36ea465b849ba919d3ebe\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -142,17 +142,17 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.0"
-        sha1="ba078a392d084f70c792ec369878f7d85e10a169">
+        sha1="7c86507711cae4e9d6babef9320e58dd83aa43af">
         <dex dex="D:\Dev Projects\MyRepos\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_5072e15a7956cdd1435aa28902fe142e8326b4c8\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\com\android\databinding\baseLibrary\2.2.3\baseLibrary-2.2.3.jar"
+        jar="C:\Users\Rayhane\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.0"
-        sha1="b4b51d1925cdfda98fd861230c1ecb5855500129">
-        <dex dex="D:\Dev Projects\MyRepos\app\build\intermediates\transforms\dex\debug\folders\1000\10\baseLibrary-2.2.3_8bc637fcca1e0a3556ffc9576dbd2dded58abbcb\classes.dex" />
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="D:\Dev Projects\MyRepos\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.8.0_bab32e4ae007a0d1e29e818be024d3d9e3c742ae\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -165,21 +165,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\Dev Projects\MyRepos\app\build\intermediates\exploded-aar\com.android.databinding\adapters\1.2.1\jars\classes.jar"
+        jar="C:\Users\Rayhane\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.0\2b802460eea20f8f2ad9c08c74e0f14718e88aa9\okhttp-3.3.0.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.0"
-        sha1="c56d29136c2257f63f08c29c4e739efb03b06c7d">
-        <dex dex="D:\Dev Projects\MyRepos\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.databinding-adapters-1.2.1_0baa95dd51cb22ee32e180d582868e0c289ca0e0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Rayhane\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.2.0\f7873a2ebde246a45c2a8d6f3247108b4c88a879\okhttp-3.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.0"
-        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
-        <dex dex="D:\Dev Projects\MyRepos\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.2.0_e4bf12ddf777dd0c33d82938df5324e1db376f8c\classes.dex" />
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="D:\Dev Projects\MyRepos\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.3.0_4de8d0518eeebf3a001472332a05d237038f438f\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -207,15 +198,6 @@
         revision="23.0.0"
         sha1="40e7757d9b06db670062ddb3cf5b30c129b2fd8c">
         <dex dex="D:\Dev Projects\MyRepos\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.0.0_4ff6d3b8be7b0e8f5308367972140839a41bb685\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Rayhane\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.0.2\43eeae0b9fb087bb3194ba59ab63a38a32fbf3e\retrofit-2.0.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.0"
-        sha1="043eeae0b9fb087bb3194ba59ab63a38a32fbf3e">
-        <dex dex="D:\Dev Projects\MyRepos\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.0.2_8c4f33030e76407d57974e436cdc47421fb25721\classes.dex" />
     </item>
     <item
         is-multidex="true"
