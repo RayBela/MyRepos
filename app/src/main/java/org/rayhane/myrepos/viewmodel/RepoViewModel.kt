@@ -14,8 +14,8 @@ import org.rayhane.myrepos.model.GithubRepo
  * RecyclerView Adapter
  */
 
-class RepoAdapter(private val repos: List<GithubRepo>,
-                  private val rowLayout: Int) : RecyclerView.Adapter<RepoAdapter.RepoViewHolder>() {
+class RepoViewModel(private val repos: List<GithubRepo>,
+                    private val rowLayout: Int) : RecyclerView.Adapter<RepoViewModel.RepoViewHolder>() {
 
     //TODO:implment data bindings here
 

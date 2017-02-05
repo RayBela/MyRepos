@@ -12,7 +12,7 @@ import com.google.gson.GsonBuilder
 import org.rayhane.myrepos.R
 import org.rayhane.myrepos.model.GithubService
 import org.rayhane.myrepos.model.GithubRepo
-import org.rayhane.myrepos.viewmodel.RepoAdapter
+import org.rayhane.myrepos.viewmodel.RepoViewModel
 
 import retrofit2.Retrofit
 import retrofit2.adapter.rxjava.RxJavaCallAdapterFactory
@@ -23,30 +23,14 @@ import rx.android.view.ViewObservable
 import rx.functions.Action1
 import rx.schedulers.Schedulers
 
+
+
 class MainActivity : AppCompatActivity() {
 
 
     var USER = "RayBela"
     var ENDPOINT = "https://api.github.com"
     var recyclerView: RecyclerView? = null
-
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-
-        //TODO: Implment mvvm
-        //TODO:seperate logic and view
-
-        recyclerView = findViewById(R.id.repos_list) as RecyclerView
-        recyclerView!!.layoutManager = LinearLayoutManager(this)
-
-        val loadReposBtn = findViewById(R.id.loadRepos) as Button
-        val clicksObservable = ViewObservable.clicks(loadReposBtn)
-
-        clicksObservable.subscribe { loadRepositories() }
-
-    }
 
     /**
      *
@@ -60,7 +44,7 @@ class MainActivity : AppCompatActivity() {
                 .observeOn(AndroidSchedulers.mainThread()) // Use the UI thread
                 .subscribe(Action1<List<GithubRepo>> { githubRepos ->
                     for (repo in githubRepos) {
-                        recyclerView!!.adapter = RepoAdapter(githubRepos, R.layout.list_item_repo)
+                        recyclerView!!.adapter = RepoViewModel(githubRepos, R.layout.list_item_repo)
                     }
                 })
     }
@@ -79,4 +63,25 @@ class MainActivity : AppCompatActivity() {
                 .build()
         return retrofit
     }
+
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        //TODO: Implment mvvm
+        //TODO:seperate logic from view
+
+        recyclerView = findViewById(R.id.repos_list) as RecyclerView
+        recyclerView!!.layoutManager = LinearLayoutManager(this)
+
+        val loadReposBtn = findViewById(R.id.loadRepos) as Button
+        val clicksObservable = ViewObservable.clicks(loadReposBtn)
+
+        clicksObservable.subscribe { loadRepositories() }
+
+    }
+
+
+
 }
