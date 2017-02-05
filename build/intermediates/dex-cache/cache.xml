@@ -7,8 +7,17 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.0"
-        sha1="cb737965496d82c8636992caf83d16a2cc221b52">
+        sha1="a8b39888f82b4b9a257632234f8a9f8a77e90f19">
         <dex dex="D:\Dev Projects\MyRepos\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_3d311900402ac937d8e5f8dea04450a3436a347f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Dev Projects\MyRepos\app\build\intermediates\exploded-aar\com.android.databinding\library\1.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="957dc30b1495f8689271e00d56ab09cc9192df02">
+        <dex dex="D:\Dev Projects\MyRepos\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.databinding-library-1.2.1_8d048dd3c44563ea85b097ebd6fe364f47c2775c\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -142,7 +151,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.0"
-        sha1="7c86507711cae4e9d6babef9320e58dd83aa43af">
+        sha1="e5eef63201a88ef5fe7b3d69f266809aa68adc24">
         <dex dex="D:\Dev Projects\MyRepos\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_5072e15a7956cdd1435aa28902fe142e8326b4c8\classes.dex" />
     </item>
     <item
@@ -153,6 +162,15 @@
         revision="23.0.0"
         sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
         <dex dex="D:\Dev Projects\MyRepos\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.8.0_bab32e4ae007a0d1e29e818be024d3d9e3c742ae\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\com\android\databinding\baseLibrary\2.2.3\baseLibrary-2.2.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="b4b51d1925cdfda98fd861230c1ecb5855500129">
+        <dex dex="D:\Dev Projects\MyRepos\app\build\intermediates\transforms\dex\debug\folders\1000\10\baseLibrary-2.2.3_8bc637fcca1e0a3556ffc9576dbd2dded58abbcb\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -171,6 +189,15 @@
         revision="23.0.0"
         sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
         <dex dex="D:\Dev Projects\MyRepos\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.3.0_4de8d0518eeebf3a001472332a05d237038f438f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Dev Projects\MyRepos\app\build\intermediates\exploded-aar\com.android.databinding\adapters\1.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.0"
+        sha1="c56d29136c2257f63f08c29c4e739efb03b06c7d">
+        <dex dex="D:\Dev Projects\MyRepos\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.databinding-adapters-1.2.1_0baa95dd51cb22ee32e180d582868e0c289ca0e0\classes.dex" />
     </item>
     <item
         is-multidex="true"

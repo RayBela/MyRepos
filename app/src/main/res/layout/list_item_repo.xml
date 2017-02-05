@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+        <variable name="user" type="org.rayhane.myrepos.model.GithubUser"/>
+        <variable name="repo" type="org.rayhane.myrepos.model.GithubRepo"/>
+    </data>
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal"
     android:layout_width="match_parent"
@@ -21,15 +28,16 @@
             android:layout_gravity="top"
             android:textStyle="bold"
             android:textColor="@color/colorBlack"
-            android:textSize="16sp" />
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/repo_description"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/colorGreyLight"
-            />
+            android:textSize="15sp" />
 
     </LinearLayout>
 
 </LinearLayout>
+</layout>

@@ -1,6 +1,5 @@
 package org.rayhane.myrepos.viewmodel
 
-import android.content.Context
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
@@ -16,11 +15,12 @@ import org.rayhane.myrepos.model.GithubRepo
  */
 
 class RepoAdapter(private val repos: List<GithubRepo>,
-                  private val rowLayout: Int,
-                  private val context: Context) : RecyclerView.Adapter<RepoAdapter.RepoViewHolder>() {
+                  private val rowLayout: Int) : RecyclerView.Adapter<RepoAdapter.RepoViewHolder>() {
 
+    //TODO:implment data bindings here
 
     inner class RepoViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+
 
         internal var reposLayout: LinearLayout
         internal var repoName: TextView
