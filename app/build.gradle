@@ -13,11 +13,6 @@ android {
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
-
-    dataBinding {
-        enabled = true
-    }
-
     buildTypes {
         release {
             minifyEnabled false
@@ -32,13 +27,15 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile 'com.android.support:appcompat-v7:23.0.0'
+    compile "com.android.support:recyclerview-v7:23.0.0"
     testCompile 'junit:junit:4.12'
-    compile "com.android.support:appcompat-v7:23.0.0"
+    //Kotlin
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     compile "org.jetbrains.anko:anko-common:$anko_version"
-    compile "com.android.support:recyclerview-v7:23.0.0"
+    //retrofit + Gson
     compile 'com.google.code.gson:gson:2.6.2'
     compile 'com.squareup.retrofit2:retrofit:2.0.2'
     compile 'com.squareup.retrofit2:converter-gson:2.0.2'
+    //RxAndroid
     compile 'io.reactivex:rxandroid:0.25.0'
 }

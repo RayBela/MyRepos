@@ -39,7 +39,6 @@ class MainActivity : AppCompatActivity(), Callback<GithubUser> {
 
     fun onClick(view: View) {
         val gson = GsonBuilder()
-                .setDateFormat("yyyy-MM-dd'T'HH:mm:ssZ")
                 .create()
 
         val retrofit = Retrofit.Builder()
